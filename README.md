@@ -45,6 +45,17 @@ The Prompt Engine template is available in three formats, which can be accessed 
 In this simple example, we demonstrate how to create a basic prompt that allows users to choose their area of interest and receive content based on their selection.
 
 ```toml
+[prompt]
+Author = "rUv"
+name = "Area of Interest Selector"
+forked_from = "ruvnet"
+version = "1.0"
+
+# initial prompt
+# Purpose: The initial prompt welcomes the user to the Area of Interest Selector and explains the purpose of the bot.
+# It also informs the user that the bot will demonstrate how to create a basic prompt that allows users to choose their area of interest and receive content based on their selection.
+init = "Welcome to the Area of Interest Selector. This bot will demonstrate how to create a basic prompt that allows users to choose their area of interest and receive content based on their selection. Let's get started!"
+
 [prompt.features.personalization.domains]
 Description = "Choose your area of interest."
 Domain_A = "Science"
@@ -60,6 +71,15 @@ choose_domain = "Choose your area of interest."
 In this advanced example, we demonstrate how to create a more complex prompt that includes additional personalization options, such as content complexity and interaction styles.
 
 ```toml
+[prompt]
+Author = "rUv"
+name = "Advanced Prompt Engine Template Creator"
+forked_from = "ruvnet"
+version = "1.0"
+
+# initial prompt
+init = "Welcome to the Advanced Prompt Engine Template Creator. This bot will help you create a new Prompt Engine prompt with custom domain and use-specific templates. Let's get started!"
+
 [prompt.features.personalization]
 Description = "Personalized settings."
 
@@ -78,18 +98,28 @@ Description = "Choose interaction style."
 Style_A = "Text-based"
 Style_B = "Voice-based"
 
-[prompt.commands.commands]
+[prompt.commands]
 Description = "Available commands."
+prefix = "Choose one of the following commands:"
+
+[prompt.commands.commands]
 help = "Get help."
 choose_domain = "Choose your area of interest."
 choose_complexity = "Choose content complexity level."
 choose_interaction = "Choose interaction style."
+
 ```
 ### Educational Platforms
 ``` toml
+# Prompt Engine Template for Educational Platforms
+
 [prompt]
+Author = "ChatGPT"
 name = "Educational Platform"
 version = "1.0.0"
+
+# initial prompt
+init = "Welcome to the Educational Platform! This bot will help you personalize your learning experience. Choose your area of interest and adapt to your level of expertise. Let's get started!"
 
 [prompt.features.personalization]
 Description = "Personalized learning experience."
@@ -113,8 +143,12 @@ stop = "End the learning session."
 ### Customer Support
 ```toml 
 [prompt]
+Author = "ChatGPT"
 name = "Customer Support"
 version = "1.0.0"
+
+# initial prompt
+init = "Welcome to Customer Support. How may I assist you today?"
 
 [prompt.features.personalization]
 Description = "Dynamic customer support."
@@ -133,8 +167,12 @@ feedback = "Provide feedback about the service."
 ### Content Exploration
 ```toml
 [prompt]
+Author = "ChatGPT"
 name = "Content Exploration"
 version = "1.0.0"
+
+# initial prompt
+init = "Welcome to the Content Exploration bot. This bot will help you explore different types of content in an interactive way. Let's get started!"
 
 [prompt.features.personalization]
 Description = "Interactive content exploration."
@@ -155,7 +193,11 @@ search = "Search for specific content."
 ```toml
 [prompt]
 name = "Virtual Assistant"
+author = "ChatGPT"
 version = "1.0.0"
+
+# initial prompt
+init = "Welcome to Virtual Assistant. This bot provides personalized virtual assistance with conversational or command-based interaction. How can I assist you?"
 
 [prompt.features.personalization]
 Description = "Personalized virtual assistance."
@@ -176,6 +218,33 @@ reminder = "Set a reminder or schedule an event."
 [prompt]
 name = "Interactive Narrative"
 version = "1.0.0"
+Author = "ChatGPT"
+forked_from = ""
+init = "Welcome to the Interactive Narrative Bot. This bot will take you through a narrative adventure, where you can make choices and create your own story. Let's get started!"
+
+[prompt.features.personalization]
+Description = "Interactive storytelling experience."
+
+[prompt.features.personalization.branches]
+Description = "Branching narrative paths."
+Path_A = "Follow the first narrative path."
+Path_B = "Follow the second narrative path."
+
+[prompt.commands]
+Description = "Commands for interactive narrative."
+choose = "Make a choice in the narrative."
+continue = "Continue to the next part of the story."
+```
+
+### Persona and Character Creator
+```toml
+[prompt]
+Author = "ChatGPT"
+name = "Interactive Narrative"
+version = "1.0.0"
+
+# initial prompt
+init = "Welcome to the Persona and Character Creator! This bot will help you create an interactive narrative with branching story paths. Let's get started!"
 
 [prompt.features.personalization]
 Description = "Interactive storytelling experience."
