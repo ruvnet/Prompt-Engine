@@ -1,0 +1,286 @@
+{
+    "prompt": {
+        "Author": "<author_name>",
+        "name": "<prompt_name>",
+        "forked_from": "<original_author>",
+        "version": "<version_number>",
+        "features": {
+            "personalization": {
+                "Description": "This section contains personalized settings to adapt the content to user preferences.",
+                "domains": {
+                    "Description": "This section contains a list of different domains or areas, allowing users to choose their area of interest.",
+                    "Domain_A": "<domain_a_description>",
+                    "Domain_B": "<domain_b_description>"
+                },
+                "complexity": {
+                    "description": "This section determines the complexity of content with levels ranging from 1 (basic) to 10 (advanced). Higher levels cover more specific, detailed, and complex information, while lower levels focus on the basics and generalizations.",
+                    "complexity_levels": {
+                        "Level_1": "<level_1_description>",
+                        "Level_10": "<level_2_description>"
+                    }
+                },
+                "interaction_styles": {
+                    "Description": "This section contains a list of interaction styles that can be used to customize the user experience.",
+                    "Style_A": "<style_a_description>",
+                    "Style_B": "<style_b_description>"
+                },
+                "presentation_styles": {
+                    "Description": "This section contains a list of presentation styles that can be used to customize the way content is presented.",
+                    "Style_A": "<style_a_description>",
+                    "Style_B": "<style_b_description>"
+                },
+                "tone_styles": {
+                    "Description": "This section contains a list of tone styles that can be used to customize the overall tone of the content.",
+                    "Style_A": "<style_a_description>",
+                    "Style_B": "<style_b_description>"
+                },
+                "structuring_frameworks": {
+                    "Description": "This section contains a list of structuring frameworks that can be used to customize the way content is structured and presented.",
+                    "Framework_A": "<framework_a_description>",
+                    "Framework_B": "<framework_b_description>"
+                }
+            },            
+            "plugins": {
+                "Description": "This section contains information about any plugins that can be used to enhance the learning experience.",
+                "Plugin_A": "<plugin_a_information>",
+                "Plugin_B": "<plugin_b_information>"
+            },
+            "internet": {
+                "Description": "This section contains information about the platform's internet access capabilities and restrictions, if any.",
+                "Access_information": "<internet_access_information>"
+            },
+            "use_emojis": {
+                "Description": "This section contains information about emoji usage preferences in the content.",
+                "Emoji_information": "<emoji_usage_information>"
+            },
+            "python_enabled": {
+                "Description": "This section contains information about the platform's Python compatibility and limitations, if any.",
+                "Python_information": "<python_enabled_information>"
+            }
+        },
+        "commands": {
+            "Description": "This section contains a list of commands that users can input to interact with the platform.",
+            "prefix": "<command_prefix>",
+            "commands": {
+                "Description": "This subsection lists the available commands and their corresponding descriptions.",
+                "help": "<help_command_description>",
+                "feedback": "<feedback_command_description>",
+                "test": "<test_command_description>",
+                "config": "<config_command_description>",
+                "plan": "<plan_command_description>",
+                "search": "<search_command_description>",
+                "start": "<start_command_description>",
+                "stop": "<stop_command_description>",
+                "continue": "<continue_command_description>",
+                "self-eval": "<self-eval_command_description>",
+                "save": "<save_command_description>",
+                "load": "<load_command_description>",
+                "reset": "<reset_command_description>",
+                "status": "<status_command_description>"
+            }
+        },
+        "rules": {
+            "Description": "This section contains a list of rules that users must follow when interacting with the platform.",
+            "Rule_1": "<rule_1>",
+            "Rule_2": "<rule_2>"
+        },
+        "formats": {
+            "Description": "This section contains information about various format settings that can be used to customize the presentation and structure of the content.",
+            "configuration": {
+                "Description": "This subsection contains lines for configuring the platform according to user preferences.",
+                "Config_line_1": "<config_line_1>",
+                "Config_line_2": "<config_line_2>"
+            },
+            "configuration_reminder": {
+                "Description": "This subsection contains reminders about configuration settings.",
+                "Reminder_line_1": "<reminder_line_1>",
+                "Reminder_line_2": "<reminder_line_2>"
+            },
+            "self-evaluation": {
+                "Description": "This subsection contains lines for self-evaluation of the platform's performance.",
+                "Eval_line_1": "<eval_line_1>",
+                "Eval_line_2": "<eval_line_2>"
+            },
+            "planning": {
+                "Description": "This subsection contains lines for planning the learning process.",
+                "Plan_line_1": "<plan_line_1>",
+                "Plan_line_2": "<plan_line_2>"
+            }
+        },
+        "settings": {
+            "Description": "This section contains a list of settings for the platform.",
+            "plugins": {
+                "Description": "This section contains information about any plugins that can be used to enhance the learning experience.",
+                "Plugin_A": "<plugin_a_information>",
+                "Plugin_B": "<plugin_b_information>"
+            },
+            "internet": {
+                "Description": "This section contains information about the platform's internet access capabilities and restrictions, if any.",
+                "Access_information": "<internet_access_information>"
+            },
+            "use_emojis": {
+                "Description": "This section contains information about emoji usage preferences in the content.",
+                "Emoji_information": "<emoji_usage_information>"
+            },
+            "programming_languages": {
+                "Description": "This section contains information about the platform's compatibility and limitations with various programming languages, if any.",
+                "Language_information": {
+                    "Python": "<python_information>",
+                    "JavaScript": "<javascript_information>"
+                }
+            },
+            "accessibility": {
+                "Description": "This section contains information about the platform's accessibility features and options for users with disabilities.",
+                "Accessibility_information": "<accessibility_information>"
+            },
+            "privacy": {
+                "Description": "This section contains information about the platform's privacy settings and data usage policies.",
+                "Privacy_information": "<privacy_information>"
+            }
+        }
+        ,        
+        "AiTOML": {
+            "Description": "This section contains the AI-TOML Workflow Specification (aiTWS) settings and configurations.",
+            "metadata": {
+                "name": "<name>",
+                "version": "<version>"
+            },
+            "communication": {
+                "protocol": "<protocol>",
+                "cipher": "<cipher>",
+                "port": "<port>"
+            },
+            "roles": [
+                {
+                    "name": "<role_name>",
+                    "privileges": ["<privilege_1>", "<privilege_2>"]
+                }
+            ],
+            "repositories": [
+                {
+                    "name": "<repository_name>",
+                    "url": "<repository_url>",
+                    "access_role": "<access_role>"
+                }
+            ],
+            "templates": [
+                {
+                    "name": "<template_name>",
+                    "language": "<language>",
+                    "url": "<template_url>"
+                }
+            ],
+            "keys": {
+                "key_store": "<key_store>",
+                "key_rotation_interval": "<key_rotation_interval>"
+            },
+            "ai_governance": {
+                "data_privacy": "<data_privacy>",
+                "fairness": "<fairness>",
+                "transparency": "<transparency>"
+            },
+            "logging": {
+                "level": "<level>",
+                "destination": "<destination>"
+            },
+            "monitoring": {
+                "metrics_destination": "<metrics_destination>",
+                "tracing_destination": "<tracing_destination>",
+                "health_check_interval": "<health_check_interval>"
+            },
+            "error_handling": {
+                "retry_count": "<retry_count>",
+                "retry_interval": "<retry_interval>"
+            },
+            "dependencies": [
+                {
+                    "name": "<dependency_name>",
+                    "version": "<dependency_version>"
+                }
+            ],
+            "auditing": {
+                "interval": "<interval>",
+                "report_destination": "<report_destination>"
+            },
+            "stages": [
+                {
+                    "name": "<stage_name>",
+                    "order": "<order>",
+                    "actions": [
+                        {
+                            "name": "<action_name>",
+                            "type": "<action_type>"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "name": "<condition_name>",
+                    "type": "<condition_type>"
+                }
+            ],
+            "branches": [
+                {
+                    "name": "<branch_name>",
+                    "condition": "<condition>",
+                    "if_true": "<if_true>",
+                    "if_false": "<if_false>"
+                }
+            ],
+            "parallel_execution": [
+                {
+                    "name": "<parallel_execution_name>",
+                    "tasks": ["<task_1>", "<task_2>"]
+                }
+            ],
+            "external_services": [
+                {
+                    "name": "<external_service_name>",
+                    "type": "<external_service_type>",
+                    "url": "<external_service_url>"
+                }
+            ],
+            "authorization": [
+                {
+                    "role": "<authorization_role>",
+                    "allowed_actions": ["<allowed_action_1>", "<allowed_action_2>"]
+                }
+            ],
+            "events": [
+                {
+                    "name": "<event_name>",
+                    "type": "<event_type>"
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "<trigger_name>",
+                    "event": "<trigger_event>",
+                    "handler": "<trigger_handler>"
+                }
+            ],
+            "handlers": [
+                {
+                    "name": "<handler_name>",
+                    "action": "<handler_action>"
+                }
+            ],
+            "version_control": {
+                "system": "<version_control_system>",
+                "url": "<version_control_url>",
+                "branch": "<branch>",
+                "version_control": {
+                    "system": "<version_control_system>",
+                    "url": "<version_control_url>",
+                    "branch": "<version_control_branch>"
+                },
+                "change_management": {
+                    "review_required": "<review_required>",
+                    "approval_roles": ["<approval_role_1>", "<approval_role_2>"]
+                }
+            }            
+    },
+    "init": "<init_description>"
+}
+}
