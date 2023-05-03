@@ -83,3 +83,106 @@ choose_domain = "Choose your area of interest."
 choose_complexity = "Choose content complexity level."
 choose_interaction = "Choose interaction style."
 ```
+### Educational Platforms
+``` toml
+[prompt]
+name = "Educational Platform"
+version = "1.0.0"
+
+[prompt.features.personalization]
+Description = "Personalized learning experience."
+
+[prompt.features.personalization.domains]
+Description = "Choose area of interest."
+Mathematics = "Learn about algebra, calculus, and geometry."
+Science = "Explore physics, chemistry, and biology."
+
+[prompt.features.personalization.complexity]
+description = "Adapt to learner's level of expertise."
+Level_1 = "Basic concepts and general overview."
+Level_10 = "Advanced topics and in-depth analysis."
+
+[prompt.commands]
+Description = "Commands for interaction."
+start = "Start the learning session."
+stop = "End the learning session."
+```
+
+### Customer Support
+```toml 
+[prompt]
+name = "Customer Support"
+version = "1.0.0"
+
+[prompt.features.personalization]
+Description = "Dynamic customer support."
+
+[prompt.features.personalization.tone_styles]
+Description = "Tone of the support."
+Friendly = "Friendly and approachable tone."
+Formal = "Formal and professional tone."
+
+[prompt.commands]
+Description = "Commands for assistance."
+help = "Get help with a specific issue."
+feedback = "Provide feedback about the service."
+```
+
+### Content Exploration
+```toml
+[prompt]
+name = "Content Exploration"
+version = "1.0.0"
+
+[prompt.features.personalization]
+Description = "Interactive content exploration."
+
+[prompt.features.personalization.presentation_styles]
+Description = "Presentation of content."
+List = "Display content as a list."
+Grid = "Display content in a grid layout."
+
+[prompt.commands]
+Description = "Commands for navigation."
+next = "Go to the next page of content."
+previous = "Go to the previous page of content."
+search = "Search for specific content."
+```
+
+### Virtual Assistants
+[prompt]
+name = "Virtual Assistant"
+version = "1.0.0"
+
+[prompt.features.personalization]
+Description = "Personalized virtual assistance."
+
+[prompt.features.personalization.interaction_styles]
+Description = "Interaction style with the virtual assistant."
+Conversational = "Conversational and natural language interaction."
+Command_Based = "Command-based interaction with specific keywords."
+
+[prompt.commands]
+Description = "Commands for virtual assistant."
+ask = "Ask a question to the virtual assistant."
+reminder = "Set a reminder or schedule an event."
+
+### Interactive Narratives
+```toml
+[prompt]
+name = "Interactive Narrative"
+version = "1.0.0"
+
+[prompt.features.personalization]
+Description = "Interactive storytelling experience."
+
+[prompt.features.personalization.branches]
+Description = "Branching narrative paths."
+Path_A = "Follow the first narrative path."
+Path_B = "Follow the second narrative path."
+
+[prompt.commands]
+Description = "Commands for interactive narrative."
+choose = "Make a choice in the narrative."
+continue = "Continue to the next part of the story."
+```
