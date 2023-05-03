@@ -25,8 +25,6 @@ In addition to personalization, Prompt Engine also provides a comprehensive set 
 - **Efficiency**: Prompt Engine's structured and modular design makes it easy for prompt engineers and programmers to quickly develop and deploy interactive content, saving time and effort.
 
 ## Key Features of the Prompt Engine System
-- Personalization: The Prompt Engine System offers a comprehensive set of personalization options that allow users to customize the content and interactions based on their preferences. This includes options for selecting domains of interest, adjusting content complexity, and choosing interaction styles.
-
 - Commands: The system provides a rich set of commands that users can input to interact with the platform. These commands enable users to navigate the content, request help, provide feedback, and perform various other actions.
 
 - Rules: The Prompt Engine System allows users to define rules that govern the behavior of the prompt. These rules ensure that users adhere to certain guidelines and restrictions while interacting with the platform.
