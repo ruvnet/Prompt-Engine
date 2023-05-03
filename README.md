@@ -6,6 +6,11 @@ Prompt Engine is a powerful and flexible template designed to facilitate the cre
 ## Copy and Paste the Prompt
 - [Prompt Engine v0.01](https://github.com/ruvnet/Prompt-Engine/blob/main/prompts/engine.toml)
 
+## What is the Prompt Engine System?
+The Prompt Engine System is a template-based framework designed to empower prompt engineers and programmers to create interactive prompts with ease. It offers a wide range of personalization options, commands, and features that allow users to create content tailored to their specific needs.
+
+The system is built around the concept of configuration files, supporting formats such as TOML (Tom's Obvious, Minimal Language), YAML (YAML Ain't Markup Language), and JSON (JavaScript Object Notation). These formats provide a human-readable and easy-to-understand structure for defining the behavior and characteristics of interactive prompts. With the Prompt Engine System, users can define everything from the complexity of content and interaction styles to the rules and commands that govern the prompt's behavior. By offering support for multiple configuration formats, the system ensures flexibility and adaptability to suit the preferences and requirements of different users.
+
 ## Purpose
 The primary purpose of Prompt Engine is to provide prompt engineers and programmers with a versatile and customizable template for creating interactive prompts that can be used in a wide range of applications, from chatbots and virtual assistants to educational platforms and customer support tools. The Prompt Engine is designed to be adaptable and extensible, allowing users to create dynamic and responsive interactions that can be easily configured to suit different use cases and contexts.
 
@@ -18,6 +23,18 @@ In addition to personalization, Prompt Engine also provides a comprehensive set 
 - **Flexibility**: With a comprehensive set of commands and format options, Prompt Engine provides programmers with the flexibility to create interactive experiences that are intuitive and user-friendly.
 - **Adaptability**: Prompt Engine is designed to adapt to different domains and areas of interest, making it suitable for a wide range of use cases and applications.
 - **Efficiency**: Prompt Engine's structured and modular design makes it easy for prompt engineers and programmers to quickly develop and deploy interactive content, saving time and effort.
+
+## Key Features of the Prompt Engine System
+- Personalization: The Prompt Engine System offers a comprehensive set of personalization options that allow users to customize the content and interactions based on their preferences. This includes options for selecting domains of interest, adjusting content complexity, and choosing interaction styles.
+
+- Commands: The system provides a rich set of commands that users can input to interact with the platform. These commands enable users to navigate the content, request help, provide feedback, and perform various other actions.
+
+- Rules: The Prompt Engine System allows users to define rules that govern the behavior of the prompt. These rules ensure that users adhere to certain guidelines and restrictions while interacting with the platform.
+
+- Formats: The system offers various format settings that can be used to customize the presentation and structure of the content. This includes options for configuring the platform, setting reminders, and evaluating performance.
+
+- Settings: The Prompt Engine System provides a range of settings that enhance the functionality of the platform. This includes options for integrating plugins, enabling internet access, using emojis, and supporting programming languages.
+
 
 ## Accessing the Prompt Template
 The Prompt Engine template is available in three formats, which can be accessed via the following links:
