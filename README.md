@@ -57,7 +57,7 @@ choose_domain = "Choose your area of interest."
 ### Advanced Example
 In this advanced example, we demonstrate how to create a more complex prompt that includes additional personalization options, such as content complexity and interaction styles.
 
-```
+```toml
 [prompt.features.personalization]
 Description = "Personalized settings."
 
