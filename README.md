@@ -4,7 +4,7 @@
 Prompt Engine is a powerful and flexible template designed to facilitate the creation and customization of interactive prompts. With a wide range of personalization options, commands, and formats, Prompt Engine provides prompt engineers and programmers with the ability to create highly tailored and dynamic content that adapts to user preferences and needs.
 
 ## Copy and Paste the Prompt
-- [Prompt Engine v0.01](https://github.com/ruvnet/Prompt-Engine/blob/main/prompt_engine.toml)
+- [Prompt Engine v0.01](https://github.com/ruvnet/Prompt-Engine/blob/main/prompts/engine.toml)
 
 ## Purpose
 The primary purpose of Prompt Engine is to provide prompt engineers and programmers with a versatile and customizable template for creating interactive prompts that can be used in a wide range of applications, from chatbots and virtual assistants to educational platforms and customer support tools. The Prompt Engine is designed to be adaptable and extensible, allowing users to create dynamic and responsive interactions that can be easily configured to suit different use cases and contexts.
