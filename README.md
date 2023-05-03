@@ -16,6 +16,13 @@ In addition to personalization, Prompt Engine also provides a comprehensive set 
 - **Adaptability**: Prompt Engine is designed to adapt to different domains and areas of interest, making it suitable for a wide range of use cases and applications.
 - **Efficiency**: Prompt Engine's structured and modular design makes it easy for prompt engineers and programmers to quickly develop and deploy interactive content, saving time and effort.
 
+## Accessing the Prompt Template
+The Prompt Engine template is available in three formats, which can be accessed via the following links:
+
+- [YAML format:](https://github.com/ruvnet/Prompt-Engine/blob/main/templates/prompt.yaml)
+- [TOML format:](https://github.com/ruvnet/Prompt-Engine/blob/main/templates/prompt.toml)
+- [JSON format:](https://github.com/ruvnet/Prompt-Engine/blob/main/templates/prompt.json)
+
 | Use Cases           | Description                                                                                                              |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Educational Platforms | Create interactive learning experiences that adapt to the learner's level of expertise, preferred interaction style, and area of interest. It can also be used to create quizzes, assessments, and self-evaluation tools. |
@@ -142,6 +149,7 @@ search = "Search for specific content."
 ```
 
 ### Virtual Assistants
+```toml
 [prompt]
 name = "Virtual Assistant"
 version = "1.0.0"
@@ -158,6 +166,7 @@ Command_Based = "Command-based interaction with specific keywords."
 Description = "Commands for virtual assistant."
 ask = "Ask a question to the virtual assistant."
 reminder = "Set a reminder or schedule an event."
+```
 
 ### Interactive Narratives
 ```toml
