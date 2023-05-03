@@ -1,0 +1,329 @@
+[prompt]
+Author = "<author_name>"
+name = "<prompt_name>"
+forked_from = "<original_author>"
+version = "<version_number>"
+init = "<init_description>"
+
+[prompt.features.personalization]
+Description = "This section contains personalized settings to adapt the content to user preferences."
+
+[prompt.features.personalization.domains]
+Description = "This section contains a list of different domains or areas, allowing users to choose their area of interest."
+Domain_A = "<domain_a_description>"
+Domain_B = "<domain_b_description>"
+
+[prompt.features.personalization.complexity]
+description = "This section determines the complexity of content with levels ranging from 1 (basic) to 10 (advanced). Higher levels cover more specific, detailed, and complex information, while lower levels focus on the basics and generalizations."
+
+[prompt.features.personalization.complexity.complexity_levels]
+Level_1 = "<level_1_description>"
+Level_10 = "<level_2_description>"
+
+[prompt.features.personalization.interaction_styles]
+Description = "This section contains a list of interaction styles that can be used to customize the user experience."
+Style_A = "<style_a_description>"
+Style_B = "<style_b_description>"
+
+[prompt.features.personalization.presentation_styles]
+Description = "This section contains a list of presentation styles that can be used to customize the way content is presented."
+Style_A = "<style_a_description>"
+Style_B = "<style_b_description>"
+
+[prompt.features.personalization.tone_styles]
+Description = "This section contains a list of tone styles that can be used to customize the overall tone of the content."
+Style_A = "<style_a_description>"
+Style_B = "<style_b_description>"
+
+[prompt.features.personalization.structuring_frameworks]
+Description = "This section contains a list of structuring frameworks that can be used to customize the way content is structured and presented."
+Framework_A = "<framework_a_description>"
+Framework_B = "<framework_b_description>"
+
+[prompt.features.plugins]
+Description = "This section contains information about any plugins that can be used to enhance the learning experience."
+Plugin_A = "<plugin_a_information>"
+Plugin_B = "<plugin_b_information>"
+
+[prompt.features.internet]
+Description = "This section contains information about the platform's internet access capabilities and restrictions, if any."
+Access_information = "<internet_access_information>"
+
+[prompt.features.use_emojis]
+Description = "This section contains information about emoji usage preferences in the content."
+Emoji_information = "<emoji_usage_information>"
+
+[prompt.features.python_enabled]
+Description = "This section contains information about the platform's Python compatibility and limitations, if any."
+Python_information = "<python_enabled_information>"
+
+[prompt.commands]
+Description = "This section contains a list of commands that users can input to interact with the platform."
+prefix = "<command_prefix>"
+
+[prompt.commands.commands]
+Description = "This subsection lists the available commands and their corresponding descriptions."
+help = "<help_command_description>"
+feedback = "<feedback_command_description>"
+test = "<test_command_description>"
+config = "<config_command_description>"
+plan = "<plan_command_description>"
+search = "<search_command_description>"
+start = "<start_command_description>"
+stop = "<stop_command_description>"
+continue = "<continue_command_description>"
+self-eval = "<self-eval_command_description>"
+save = "<save_command_description>"
+load = "<load_command_description>"
+reset = "<reset_command_description>"
+status = "<status_command_description>"
+
+[prompt.rules]
+Description = "This section contains a list of rules that users must follow when interacting with the platform."
+Rule_1 = "<rule_1>"
+Rule_2 = "<rule_2>"
+
+[prompt.formats]
+Description = "This section contains information about various format settings that can be used to customize the presentation and structure of the content."
+
+[prompt.formats.configuration]
+Description = "This subsection contains lines for configuring the platform according to user preferences."
+Config_line_1 = "<config_line_1>"
+Config_line_2 = "<config_line_2>"
+
+[prompt.formats.configuration_reminder]
+Description = "This subsection contains reminders about configuration settings."
+Reminder_line_1 = "<reminder_line_1>"
+Reminder_line_2 = "<reminder_line_2>"
+
+[prompt.formats.self-evaluation]
+Description = "This subsection contains lines for self-evaluation of the platform's performance."
+Eval_line_1 = "<eval_line_1>"
+Eval_line_2 = "<eval_line_2>"
+
+[prompt.formats.planning]
+Description = "This subsection contains lines for planning the learning process."
+Plan_line_1 = "<plan_line_1>"
+Plan_line_2 = "<plan_line_2>"
+
+[prompt.settings]
+# No description provided
+
+[prompt.settings.plugins]
+Description = "This section contains information about any plugins that can be used to enhance the learning experience."
+Plugin_A = "<plugin_a_information>"
+Plugin_B = "<plugin_b_information>"
+
+[prompt.settings.internet]
+Description = "This section contains information about the platform's internet access capabilities and restrictions, if any."
+Access_information = "<internet_access_information>"
+
+[prompt.settings.use_emojis]
+Description = "This section contains information about emoji usage preferences in the content."
+Emoji_information = "<emoji_usage_information>"
+
+[prompt.settings.programming_languages]
+Description = "This section contains information about the platform's compatibility and limitations with various programming languages, if any."
+
+[prompt.settings.programming_languages.Language_information]
+Python = "<python_information>"
+JavaScript = "<javascript_information>"
+
+[prompt.settings.accessibility]
+Description = "This section contains information about the platform's accessibility features and options for users with disabilities."
+Accessibility_information = "<accessibility_information>"
+
+[prompt.settings.privacy]
+Description = "This section contains information about the platform's privacy settings and data usage policies."
+Privacy_information = "<privacy_information>"
+
+[prompt.AiTOML]
+Description = "This section contains the AI-TOML Workflow Specification (aiTWS) settings and configurations."
+
+# AI-TOML Workflow Specification (aiTWS)
+
+[metadata]
+name = "Sample aiTWS Configuration"
+version = "1.0.0"
+
+# Secure communication settings
+[communication]
+protocol = "TLS" # Supported values: TLS, DTLS, QUIC
+cipher = "AES256-GCM" # Cipher suite used for encryption
+port = 443 # Port used for secure communication
+
+# Access privileges and roles
+[[roles]]
+name = "Administrator"
+privileges = ["all"]
+
+[[roles]]
+name = "Developer"
+privileges = ["read", "write", "execute"]
+
+# Repositories and templates
+[[repositories]]
+name = "Primary Repository"
+url = "https://github.com/example/repo.git"
+access_role = "Developer"
+
+# Supported languages: Rust, Python, JavaScript, and others
+[[templates]]
+name = "Rust Template"
+language = "Rust"
+url = "https://github.com/example/rust-template.git"
+
+# Secure key management
+[keys]
+key_store = "AWS_KMS" # Supported values: AWS_KMS, GCP_KMS, Azure_Key_Vault, HashiCorp_Vault
+key_rotation_interval = "30 days"
+
+# AI governance and laws
+[ai_governance]
+data_privacy = "GDPR" # Supported values: GDPR, CCPA, PIPEDA, LGPD
+fairness = "Algorithmic_Fairness_Act" # Algorithmic fairness regulation
+transparency = "AI_Transparency_Act" # AI transparency regulation
+
+# Logging, monitoring, and error handling
+[logging]
+level = "info" # Supported values: error, warn, info, debug
+destination = "CloudWatch" # Supported values: CloudWatch, Stackdriver, Azure_Monitor, Elasticsearch
+
+[monitoring]
+metrics_destination = "Prometheus"
+tracing_destination = "Jaeger"
+health_check_interval = "5 minutes"
+
+[error_handling]
+retry_count = 3
+retry_interval = "5 seconds"
+
+# Dependencies
+[[dependencies]]
+name = "tokio"
+version = "1.14.0"
+
+[[dependencies]]
+name = "serde"
+version = "1.0.130"
+
+# Auditing
+[auditing]
+interval = "90 days"
+report_destination = "email:audit@example.com"
+
+# Workflow stages and actions
+[[stages]]
+name = "Initialization"
+order = 1
+[[stages.actions]]
+name = "CreateResources"
+type = "create_resources"
+
+[[stages]]
+name = "Execution"
+order = 2
+[[stages.actions]]
+name = "ExecuteAlgorithm"
+type = "execute_algorithm"
+
+[[stages]]
+name = "FineTuning"
+order = 3
+[[stages.actions]]
+name = "FineTuneModel"
+type = "fine_tune_model"
+
+[[stages]]
+name = "Feedback"
+order = 4
+[[stages.actions]]
+name = "GatherFeedback"
+type = "gather_feedback"
+
+[[stages]]
+name = "Regeneration"
+order = 5
+[[stages.actions]]
+name = "RegenerateCode"
+type = "regenerate_code"
+
+[[stages]]
+name = "Deployment"
+order = 6
+[[stages.actions]]
+name = "DeployModel"
+type = "deploy_model"
+
+[[stages]]
+name = "Evaluation"
+order = 7
+[[stages.actions]]
+name = "EvaluateModel"
+type = "evaluate_model"
+
+[[stages]]
+name = "Finalization"
+order = 8
+[[stages.actions]]
+name = "CleanResources"
+type = "clean_resources"
+
+# Conditional execution, branching, and parallel execution
+[[conditions]]
+name = "IsResourcesReady"
+type = "resources_ready"
+
+[[branches]]
+name = "ResourcesReadyBranch"
+condition = "IsResourcesReady"
+if_true = "Execution"
+if_false = "ErrorHandling"
+
+[[parallel_execution]]
+name = "ConcurrentTasks"
+tasks = ["TaskA", "TaskB"]
+
+# Integration with external services
+[[external_services]]
+name = "Database"
+type = "PostgreSQL"
+url = "postgres://user:password@example.com:5432/dbname"
+
+[[external_services]]
+name = "MessageQueue"
+type = "RabbitMQ"
+url = "amqp://user:password@example.com:5672/vhost"
+
+# Authentication and authorization
+[[authorization]]
+role = "Administrator"
+allowed_actions = ["*"]
+
+[[authorization]]
+role = "Developer"
+allowed_actions = ["read", "write", "execute"]
+
+# Event-driven architecture
+[[events]]
+name = "ResourceCreationEvent"
+type = "resource_creation"
+
+[[triggers]]
+name = "ResourceCreationTrigger"
+event = "ResourceCreationEvent"
+handler = "HandleResourceCreation"
+
+[[handlers]]
+name = "HandleResourceCreation"
+action = "NotifyAdministrator"
+
+# Version control and change management
+[version_control]
+system = "git"
+url = "https://github.com/example/workflow.git"
+branch = "main"
+
+[change_management]
+review_required = true
+approval_roles = ["Administrator", "Senior Developer"]
